@@ -1,5 +1,6 @@
 The TinyURL_CS.dll is the file to use
 
+This is an Example
 
         private string shorter(string url2short)
         {
