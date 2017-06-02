@@ -18,8 +18,13 @@ This package is free to use for anyone
 # Example
 
 private string shorter(string url2short)
+
 {
+
        String longUrl = TinyURLShorter.URLValidator(url2short);
+       
        String shortUrl = TinyURLShorter.MakeTinyUrl(longUrl);
+       
        return shortUrl;
+       
 }
